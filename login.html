@@ -1,0 +1,75 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>资讯</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="main">
+		<div class="header">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="news.html">文件讲话</a></li>
+				<li><a href="guanzhu.html">媒体关注</a></li>
+				<li><a href="place.html">地方聚焦</a></li>
+				<li><a href="fengcai.html">思政讲堂</a></li>
+				<li><a href="login.html">登录</a></li>
+				<li><a href="regsiter.html">注册</a></li>
+			</ul>
+		</div>
+		<div class="box">
+		 
+			<div class="context">
+<form action="#" method="post" name="jcform" onsubmit="return Jiance()">
+			<div class="message">
+           
+           	  	<dl>
+                	<dt>用户名：</dt>
+                    <dd> <input name="yonghuming" type="text" class="puta"><span>*</span></dd>
+                </dl>
+           	  	<dl>
+                	<dt>密码：</dt>
+                    <dd> <input name="mima" type="password" class="puta"><span>*</span></dd>
+                </dl>
+           	 
+           	    
+           	   
+                <div class="tijiao" style="padding-left:150px">
+                	<input name="submit" type="submit" value="登陆">
+                 
+                </div>
+                </div></form>
+               
+ 
+			</div>
+		</div>		</div>
+		<div class="footer"> 期末作业 </div>
+</body>
+
+</html>
+
+
+
+<script language="javascript">
+function Jiance() {
+    if (document.jcform.yonghuming.value=="") 
+    {
+        window.alert('请输入用户名字!'); 
+        return false;
+    }
+ 
+    if (document.jcform.mima.value=="") 
+    {
+        alert('请输入密码!'); 
+        
+        return false;
+    }
+	
+ 
+    return true;
+} 
+</script>
